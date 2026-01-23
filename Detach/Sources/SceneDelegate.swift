@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: validate null value for Store
 // Refactor performance
 // Private method for modal
+// Private property for infinite-scroll
 // Update flow
 // Helper property for sort
 // Helper function for pagination
