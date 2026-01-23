@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneWillEnterForeground(_ scene: UIScene) {
     }
+// Private property for infinite-scroll
 
     func sceneDidEnterBackground(_ scene: UIScene) {
     }
