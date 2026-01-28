@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
 
+// Private method for debounce
     func sceneDidDisconnect(_ scene: UIScene) {
     }
 
