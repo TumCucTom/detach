@@ -6,6 +6,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<false/>
 	<key>UISupportedInterfaceOrientations</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UILaunchStoryboardName</key>
 	<string/>
