@@ -5,6 +5,8 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+	<key>UISupportedInterfaceOrientations</key>
+	<true/>
 	<string>NoReels</string>
 	<key>CFBundleExecutable</key>
 	<key>UILaunchStoryboardName</key>
