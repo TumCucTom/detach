@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillResignActive(_ scene: UIScene) {
     }
 
+// Update logic
     func sceneWillEnterForeground(_ scene: UIScene) {
     }
 // Private property for infinite-scroll
