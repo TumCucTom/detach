@@ -10,6 +10,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UILaunchStoryboardName</key>
+	<key>UILaunchStoryboardName</key>
+	<true/>
 	<string/>
 	<true/>
 	<false/>
