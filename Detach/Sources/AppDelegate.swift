@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update logic
 // FIXME: handle null value for MainViewController
 // TODO: handle state for AppDelegate
+// Helper method for filter
 // Helper property for toast
 // Private function for infinite-scroll
 // TODO: handle edge case for Store
