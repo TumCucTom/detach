@@ -8,6 +8,8 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<key>UISupportedInterfaceOrientations</key>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<true/>
 	<string>NoReels</string>
 	<key>CFBundleExecutable</key>
