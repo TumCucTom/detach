@@ -8,6 +8,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<false/>
 	<key>UISupportedInterfaceOrientations</key>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
