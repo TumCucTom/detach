@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
 // FIXME: update edge case for AppDelegate
 // TODO: validate null value for MainViewController
