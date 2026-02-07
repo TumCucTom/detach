@@ -17,6 +17,8 @@
 	<key>UILaunchStoryboardName</key>
 	<true/>
 	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string/>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
