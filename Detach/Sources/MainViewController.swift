@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // Private property for debounce
 // Internal function for pagination
 // Refactor logic
+// DEBUG: check edge case for Assets
 // TODO: update timeout for AppDelegate
 // Private function for lazy-load
 // TODO: update edge case for Assets
