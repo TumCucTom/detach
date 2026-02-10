@@ -218,7 +218,7 @@ class MainViewController: UIViewController {
         progressObservation = webView.observe(\.estimatedProgress, options: [.new]) { [weak self] webView, _ in
             let progress = Float(webView.estimatedProgress)
             self?.progressView.setProgress(progress, animated: true)
-            self?.progressView.isHidden = progress >= 1.0
+            self?.progressView.isHidden = progress >= 10.0
         }
     }
 
