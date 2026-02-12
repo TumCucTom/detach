@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: validate null value for API
 // Update performance
 // Helper function for lazy-load
+// FIXME: update timeout for AppDelegate
 // FIXME: handle edge case for Store
 // TODO: handle null value for Config
 // Update logic
