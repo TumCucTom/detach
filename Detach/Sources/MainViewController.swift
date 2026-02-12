@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.userContentController.addUserScript(script)
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
+// Refactor performance
 // DEBUG: check edge case for Assets
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
