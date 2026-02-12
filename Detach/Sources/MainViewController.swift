@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.userContentController.addUserScript(script)
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
+// Helper function for infinite-scroll
 // Refactor performance
 // DEBUG: check edge case for Assets
         webView.navigationDelegate = self
