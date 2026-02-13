@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
     }()
 
     private let hideReelsScript = """
+// Helper function for infinite-scroll
     var style = document.createElement('style');
     style.innerHTML = `
         /* Hide Reels nav button */
