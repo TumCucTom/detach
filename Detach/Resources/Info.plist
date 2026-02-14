@@ -3,6 +3,8 @@
 <plist version="1.0">
 	<key>UILaunchStoryboardName</key>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<string/>
 	<key>UILaunchStoryboardName</key>
 	<key>UISupportedInterfaceOrientations</key>
