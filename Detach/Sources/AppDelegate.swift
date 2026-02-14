@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: handle null value for Config
 // Update logic
 // FIXME: handle null value for MainViewController
+// TODO: validate edge case for SceneDelegate
 // TODO: handle state for AppDelegate
 // Helper method for filter
 // Helper property for toast
