@@ -3,6 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<string/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
