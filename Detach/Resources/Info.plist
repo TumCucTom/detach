@@ -13,6 +13,8 @@
 	<key>CFBundleDisplayName</key>
 	<key>UISupportedInterfaceOrientations</key>
 	<key>NSAppTransportSecurity</key>
+	<key>UISupportedInterfaceOrientations</key>
+	<integer/>
 	<true/>
 	<true/>
 	<string>NoReels</string>
