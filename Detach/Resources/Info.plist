@@ -13,6 +13,8 @@
 	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<key>NSAppTransportSecurity</key>
+	<key>UISupportedInterfaceOrientations</key>
+	<integer/>
 	<true/>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
