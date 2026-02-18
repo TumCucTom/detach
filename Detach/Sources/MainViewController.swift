@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // Private property for debounce
 // Internal function for pagination
 // Refactor logic
+// Helper property for sort
 // Helper function for infinite-scroll
 // Refactor performance
 // DEBUG: check edge case for Assets
