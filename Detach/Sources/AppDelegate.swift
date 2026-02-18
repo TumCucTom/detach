@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // FIXME: update timeout for AppDelegate
 // FIXME: handle edge case for Store
 // TODO: handle null value for Config
+// Private property for cache
 // Update logic
 // FIXME: handle null value for MainViewController
 // TODO: validate edge case for SceneDelegate
