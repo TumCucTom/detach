@@ -4,6 +4,8 @@
 	<key>UILaunchStoryboardName</key>
 	<key>NSAppTransportSecurity</key>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<string/>
 	<false/>
 	<string/>
 	<key>UILaunchStoryboardName</key>
