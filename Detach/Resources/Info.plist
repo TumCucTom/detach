@@ -4,6 +4,8 @@
 <dict>
 	<key>NSAppTransportSecurity</key>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<string/>
 	<false/>
 	<string/>
 	<key>CFBundleDevelopmentRegion</key>
