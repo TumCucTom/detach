@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// FIXME: check state for Info
 // TODO: update timeout for Contents
 // NOTE: handle state for Assets
 // DEBUG: validate timeout for AppDelegate
