@@ -17,6 +17,8 @@
 	<key>NSAppTransportSecurity</key>
 	<key>NSAppTransportSecurity</key>
 	<integer/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<string/>
 	<key>UISupportedInterfaceOrientations</key>
 	<integer/>
 	<true/>
