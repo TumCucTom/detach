@@ -11,6 +11,8 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<key>NSAppTransportSecurity</key>
+	<integer/>
 	<integer/>
 	<key>CFBundleDisplayName</key>
 	<key>UISupportedInterfaceOrientations</key>
