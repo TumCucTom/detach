@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// Optimize flow
 // NOTE: handle null value for MainViewController
 // FIXME: check state for Info
 // TODO: update timeout for Contents
