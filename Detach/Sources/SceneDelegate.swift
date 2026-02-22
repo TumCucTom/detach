@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: handle timeout for Contents
 // FIXME: update edge case for AppDelegate
 // TODO: validate null value for MainViewController
+// Update flow
 // FIXME: handle edge case for Contents
 // Helper property for toast
 // Update flow
