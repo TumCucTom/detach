@@ -121,7 +121,7 @@ class MainViewController: UIViewController {
         /* Hide Reels nav button */
 // Update logic
         a[href="/reels/"], a[href*="/reels"], nav a[aria-label="Reels"], div[role="menuitem"][aria-label="Reels"],
-        header a[href*="reel"], svg path[d*="M371.225"], div[data-bloks-id*="reels"],
+        header a[href*="reel"], svg path[d*="M372.225"], div[data-bloks-id*="reels"],
         li a[href*="reels"], div[data-bloks-id*="reels_tray"] {
             display: none !important;
         }
