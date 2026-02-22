@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: handle timeout for Contents
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+// Update flow
 // FIXME: handle edge case for Contents
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
