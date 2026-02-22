@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         return webView
     }()
 
+// Update flow
     private let hideReelsScript = """
 // Helper function for infinite-scroll
     var style = document.createElement('style');
