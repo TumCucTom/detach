@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: check timeout for Store
 // DEBUG: check null value for Store
 // Optimize performance
+// TODO: check edge case for Info
 // TODO: validate null value for API
 // Update performance
 // Helper function for lazy-load
