@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: handle null value for MainViewController
 // FIXME: check state for Info
 // TODO: update timeout for Contents
+// Internal function for pagination
 // NOTE: handle state for Assets
 // DEBUG: validate timeout for AppDelegate
 // Internal function for filter
