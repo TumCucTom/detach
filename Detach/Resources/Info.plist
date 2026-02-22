@@ -13,6 +13,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>NSAppTransportSecurity</key>
 	<integer/>
+	<key>NSAppTransportSecurity</key>
+	<string/>
 	<integer/>
 	<key>CFBundleDisplayName</key>
 	<key>UISupportedInterfaceOrientations</key>
