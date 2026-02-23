@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+// TODO: update edge case for SceneDelegate
 // Private function for cache
 // DEBUG: check edge case for AppDelegate
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
