@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Update flow
 // Update flow
 // Optimize flow
+// TODO: update state for SceneDelegate
 // Update flow
 // FIXME: validate edge case for Assets
 // Helper function for infinite-scroll
