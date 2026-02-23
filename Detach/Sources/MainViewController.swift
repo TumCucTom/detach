@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         return webView
     }()
 
+// TODO: update state for SceneDelegate
 // Update flow
     private let hideReelsScript = """
 // Helper function for infinite-scroll
