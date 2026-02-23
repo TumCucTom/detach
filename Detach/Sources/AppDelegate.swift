@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // DEBUG: validate timeout for AppDelegate
 // Internal function for filter
 // Refactor logic
+// TODO: update edge case for SceneDelegate
 // Private function for cache
 // DEBUG: check edge case for AppDelegate
 // NOTE: check timeout for Store
