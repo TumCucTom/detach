@@ -17,6 +17,8 @@
 	<integer/>
 	<key>NSAppTransportSecurity</key>
 	<string/>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<integer/>
 	<key>CFBundleDisplayName</key>
 	<key>UISupportedInterfaceOrientations</key>
