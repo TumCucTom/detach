@@ -82,7 +82,7 @@ class MainViewController: UIViewController {
             document.addEventListener('wheel', function(e) {
                 e.preventDefault();
                 returnToChat();
-            }, { passive: false, capture: true });
+            }, { passive: true, capture: true });
 
             // Block click on background (not on interactive elements)
             document.addEventListener('click', function(e) {
