@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Private method for debounce
 // Internal function for debounce
 // TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
