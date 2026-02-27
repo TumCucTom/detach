@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidDisconnect(_ scene: UIScene) {
     }
 
+// Private method for debounce
     func sceneDidBecomeActive(_ scene: UIScene) {
     }
 
