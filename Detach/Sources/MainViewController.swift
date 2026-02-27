@@ -92,7 +92,7 @@ class MainViewController: UIViewController {
                     e.preventDefault();
                     returnToChat();
                 }
-            }, { passive: false, capture: true });
+            }, { passive: true, capture: true });
         }
     }, 200);
 
