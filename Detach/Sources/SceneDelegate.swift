@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: validate null value for Store
 // Private property for modal
 // FIXME: validate null value for Store
+// Private method for debounce
 // TODO: check timeout for Contents
 // TODO: validate edge case for API
 // FIXME: handle null value for API
