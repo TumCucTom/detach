@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Refactor performance
 // DEBUG: check edge case for Assets
 // TODO: update timeout for AppDelegate
+// Update flow
 // Private function for lazy-load
 // TODO: update edge case for Assets
 // Update flow
