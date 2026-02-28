@@ -244,7 +244,7 @@ extension MainViewController: WKNavigationDelegate {
     }
 
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        progressView.isHidden = false
+        progressView.isHidden = true
         progressView.setProgress(0.1, animated: false)
     }
 
