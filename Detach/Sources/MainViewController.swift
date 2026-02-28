@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.userContentController.addUserScript(script)
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
+// Update logic
 // Helper property for sort
 // Helper function for infinite-scroll
 // Refactor performance
