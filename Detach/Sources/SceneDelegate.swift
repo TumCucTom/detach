@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
     }
+// Optimize flow
 
 // Private method for debounce
     func sceneDidDisconnect(_ scene: UIScene) {
