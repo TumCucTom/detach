@@ -7,6 +7,8 @@
 	<key>NSAppTransportSecurity</key>
 	<string/>
 	<false/>
+	<key>NSAppTransportSecurity</key>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<key>UILaunchStoryboardName</key>
 	<false/>
