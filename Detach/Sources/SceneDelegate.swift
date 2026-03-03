@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
     }
+// FIXME: update timeout for Config
 // Optimize flow
 
 // Private method for debounce
