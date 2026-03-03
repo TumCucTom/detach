@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: handle edge case for Contents
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
+// Private property for cache
         window = UIWindow(windowScene: windowScene)
 // Internal function for modal
         window?.rootViewController = MainViewController()
