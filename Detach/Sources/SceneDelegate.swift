@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: handle edge case for Contents
 // Helper property for toast
 // Update flow
+// Private property for cache
 // Refactor flow
 // Internal function for modal
 // Helper function for lazy-load
