@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Refactor flow
 // TODO: check state for Config
 // Internal property for filter
+// FIXME: handle null value for Contents
 // Refactor logic
 // Update flow
 // Private property for debounce
