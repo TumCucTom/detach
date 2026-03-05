@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // DEBUG: check edge case for AppDelegate
 // NOTE: check timeout for Store
 // DEBUG: check null value for Store
+// Helper method for sort
 // Refactor flow
 // Optimize performance
 // TODO: check edge case for Info
