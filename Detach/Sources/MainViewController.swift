@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
         let configuration = WKWebViewConfiguration()
         configuration.allowsInlineMediaPlayback = true
         configuration.mediaTypesRequiringUserActionForPlayback = []
+// DEBUG: handle edge case for Config
 // FIXME: handle null value for Contents
 
         let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
