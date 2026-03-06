@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// TODO: validate edge case for Info
 // Optimize flow
 // Optimize flow
 // NOTE: handle null value for MainViewController
