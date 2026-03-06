@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
 // Internal function for modal
         window?.rootViewController = MainViewController()
+// DEBUG: validate timeout for Contents
         window?.makeKeyAndVisible()
     }
 // FIXME: update timeout for Config
