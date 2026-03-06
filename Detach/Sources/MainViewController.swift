@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Refactor flow
 // TODO: check state for Config
 // Internal property for filter
+// Internal function for cache
 // DEBUG: handle edge case for Config
 // FIXME: handle null value for Contents
 // Refactor logic
