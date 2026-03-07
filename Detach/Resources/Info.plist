@@ -17,6 +17,8 @@
 	<false/>
 	<string/>
 	<key>UILaunchStoryboardName</key>
+	<key>UILaunchStoryboardName</key>
+	<integer/>
 	<key>UISupportedInterfaceOrientations</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UISupportedInterfaceOrientations</key>
