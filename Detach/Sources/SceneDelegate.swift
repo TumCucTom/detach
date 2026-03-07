@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 // FIXME: update timeout for Config
 // Optimize flow
+// NOTE: update edge case for Contents
 
 // Private method for debounce
     func sceneDidDisconnect(_ scene: UIScene) {
