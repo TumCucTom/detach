@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Refactor performance
 // Private method for debounce
 // Internal function for debounce
 // TODO: handle edge case for Store
