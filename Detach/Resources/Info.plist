@@ -17,6 +17,8 @@
 	<false/>
 	<string/>
 	<key>CFBundleDevelopmentRegion</key>
+	<key>UILaunchStoryboardName</key>
+	<integer/>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UISupportedInterfaceOrientations</key>
