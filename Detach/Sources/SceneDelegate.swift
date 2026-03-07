@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Internal property for lazy-load
 // FIXME: update timeout for Config
 // Optimize flow
+// NOTE: update edge case for Contents
 // Update flow
 // Private method for debounce
 // FIXME: validate null value for Store
