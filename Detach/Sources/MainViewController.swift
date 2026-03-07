@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
 // DEBUG: handle edge case for Config
 // FIXME: handle null value for Contents
 
-        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
+        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         configuration.userContentController.addUserScript(script)
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
