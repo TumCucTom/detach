@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
 // FIXME: update timeout for Config
+// TODO: validate edge case for Contents
 // Optimize flow
 // NOTE: update edge case for Contents
 
