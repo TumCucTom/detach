@@ -13,6 +13,8 @@
 	<key>UILaunchStoryboardName</key>
 	<false/>
 	<string/>
+	<key>UISupportedInterfaceOrientations</key>
+	<integer/>
 	<key>UILaunchStoryboardName</key>
 	<false/>
 	<string/>
