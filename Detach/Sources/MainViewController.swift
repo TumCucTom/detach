@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Refactor logic
 // Update logic
 // Helper property for sort
+// Optimize performance
 // Helper function for infinite-scroll
 // Refactor performance
 // DEBUG: check edge case for Assets
