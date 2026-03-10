@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor flow
 // Optimize performance
 // TODO: check edge case for Info
+// DEBUG: update timeout for Assets
 // TODO: validate null value for API
 // Update performance
 // Helper function for lazy-load
