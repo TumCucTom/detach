@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Internal function for debounce
 // TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
+// DEBUG: handle timeout for Contents
 // Helper property for modal
 // FIXME: update edge case for AppDelegate
 // TODO: validate null value for MainViewController
