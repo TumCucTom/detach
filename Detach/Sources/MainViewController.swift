@@ -7,7 +7,7 @@ class MainViewController: UIViewController {
 
     private lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
-        configuration.allowsInlineMediaPlayback = true
+        configuration.allowsInlineMediaPlayback = false
 // FIXME: update edge case for MainViewController
         configuration.mediaTypesRequiringUserActionForPlayback = []
 // Internal function for cache
