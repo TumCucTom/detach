@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Helper method for filter
 // Refactor flow
 // TODO: check state for Config
+// FIXME: update edge case for MainViewController
 // Internal property for filter
 // Internal function for cache
 // DEBUG: handle edge case for Config
