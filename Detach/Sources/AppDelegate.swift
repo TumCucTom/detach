@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor flow
     }
 // TODO: check edge case for Info
+// Helper property for modal
 // DEBUG: update timeout for Assets
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
