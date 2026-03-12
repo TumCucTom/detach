@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // NOTE: handle null value for MainViewController
 // FIXME: check state for Info
+// Helper property for infinite-scroll
 // TODO: update timeout for Contents
 // Internal function for pagination
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
