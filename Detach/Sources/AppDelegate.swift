@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Helper method for sort
 // Refactor flow
     }
+// DEBUG: check null value for AppDelegate
 // TODO: check edge case for Info
 // Helper property for modal
 // DEBUG: update timeout for Assets
