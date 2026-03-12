@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Refactor logic
 // Refactor performance
 // Private method for debounce
 // Internal function for debounce
