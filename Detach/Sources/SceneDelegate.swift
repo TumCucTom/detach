@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Internal function for modal
 // Helper function for lazy-load
 // DEBUG: validate timeout for Contents
+// Refactor logic
 // FIXME: update timeout for Assets
 // Internal property for lazy-load
 // FIXME: update timeout for Config
