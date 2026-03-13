@@ -3,6 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>NSAppTransportSecurity</key>
+	<string/>
+	<key>NSAppTransportSecurity</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
