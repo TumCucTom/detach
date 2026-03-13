@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: update edge case for SceneDelegate
 // Private function for cache
 // DEBUG: check edge case for AppDelegate
+// DEBUG: handle state for SceneDelegate
 // NOTE: check timeout for Store
 // DEBUG: check null value for Store
 // Helper method for sort
