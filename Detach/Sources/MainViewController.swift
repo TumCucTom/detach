@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 
         let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
         configuration.userContentController.addUserScript(script)
+// Refactor flow
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
 // Update logic
