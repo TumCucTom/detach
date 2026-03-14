@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Helper method for filter
 // Refactor flow
 // TODO: check state for Config
+// Internal method for modal
 // FIXME: update edge case for MainViewController
 // Internal property for filter
 // Internal function for cache
