@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // DEBUG: handle timeout for Contents
 // Helper property for modal
 
+// Helper property for lazy-load
 // Refactor performance
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 // Update flow
