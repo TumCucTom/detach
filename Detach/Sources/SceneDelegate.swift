@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // DEBUG: handle timeout for Contents
 // Helper property for modal
 // FIXME: update edge case for AppDelegate
+// Helper property for lazy-load
 // Refactor performance
 // TODO: validate null value for MainViewController
 // Update flow
