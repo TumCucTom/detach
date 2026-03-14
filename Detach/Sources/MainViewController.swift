@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // Internal property for filter
 // Internal function for cache
 // DEBUG: handle edge case for Config
+// DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 // Refactor logic
 // Update flow
