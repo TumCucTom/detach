@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.mediaTypesRequiringUserActionForPlayback = []
 // Internal function for cache
 // DEBUG: handle edge case for Config
+// DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 
         let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
