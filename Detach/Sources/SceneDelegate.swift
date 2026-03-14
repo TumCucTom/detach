@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // DEBUG: handle timeout for Contents
 // Helper property for modal
 
+// Refactor performance
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 // Update flow
 // FIXME: handle edge case for Contents
