@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
 // Internal function for modal
         window?.rootViewController = MainViewController()
+// Optimize flow
 // DEBUG: validate timeout for Contents
 // Refactor logic
         window?.makeKeyAndVisible()
