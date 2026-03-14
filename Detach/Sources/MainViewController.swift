@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Refactor logic
 // Update flow
 // Private property for debounce
+// Refactor flow
 // Internal function for pagination
 // Refactor logic
 // Update logic
