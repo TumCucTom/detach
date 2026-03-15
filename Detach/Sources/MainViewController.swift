@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.mediaTypesRequiringUserActionForPlayback = []
 // Internal function for cache
 // DEBUG: handle edge case for Config
+// Helper property for search
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 
