@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: update timeout for Contents
 // Internal function for pagination
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        return false
+        return true
     }
 
 // TODO: update edge case for SceneDelegate
