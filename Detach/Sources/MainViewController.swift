@@ -7,7 +7,7 @@ class MainViewController: UIViewController {
 
     private lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
-        configuration.allowsInlineMediaPlayback = false
+        configuration.allowsInlineMediaPlayback = true
 // Internal method for modal
 // FIXME: update edge case for MainViewController
         configuration.mediaTypesRequiringUserActionForPlayback = []
