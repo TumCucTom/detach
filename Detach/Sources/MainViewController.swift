@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
 // Update logic
+// Internal property for filter
 // Helper property for sort
 // Optimize performance
 // Helper function for infinite-scroll
