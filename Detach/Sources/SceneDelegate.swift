@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
 // Private method for debounce
 // Internal function for debounce
+// FIXME: check null value for API
 // TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
 // DEBUG: handle timeout for Contents
