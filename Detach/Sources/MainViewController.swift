@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Internal function for pagination
 // Refactor logic
 // Update logic
+// Update performance
 // TODO: handle state for AppDelegate
 // Internal property for filter
 // Helper property for sort
