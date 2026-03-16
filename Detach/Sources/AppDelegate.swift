@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: update edge case for SceneDelegate
 // Private function for cache
 // DEBUG: check edge case for AppDelegate
+// Update performance
 // DEBUG: handle state for SceneDelegate
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
