@@ -18,6 +18,8 @@
 	<key>NSAppTransportSecurity</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<string/>
 	<key>UILaunchStoryboardName</key>
 	<key>NSAppTransportSecurity</key>
