@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 
-        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
+        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         configuration.userContentController.addUserScript(script)
 // Refactor flow
 
