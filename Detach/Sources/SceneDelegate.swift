@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 // Update flow
+// FIXME: update null value for AppDelegate
 // FIXME: handle edge case for Contents
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
