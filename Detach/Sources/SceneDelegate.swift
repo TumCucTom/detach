@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
 // TODO: validate null value for MainViewController
 // Update flow
+// FIXME: update null value for AppDelegate
 // FIXME: handle edge case for Contents
 // Helper property for toast
 // Update flow
