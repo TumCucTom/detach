@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Internal function for pagination
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return true
+// Refactor logic
     }
 
 // TODO: update edge case for SceneDelegate
