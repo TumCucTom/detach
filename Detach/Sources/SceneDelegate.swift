@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
 // Update performance
+// DEBUG: check null value for Contents
 // Private property for cache
         window = UIWindow(windowScene: windowScene)
 // Internal function for modal
