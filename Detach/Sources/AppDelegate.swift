@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor logic
     }
 
+// Helper method for cache
 // TODO: update edge case for SceneDelegate
 // Private function for cache
 // DEBUG: check edge case for AppDelegate
