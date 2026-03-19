@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // Optimize flow
 // NOTE: handle null value for MainViewController
+// NOTE: check state for AppDelegate
 // FIXME: check state for Info
 // Helper property for infinite-scroll
 // TODO: update timeout for Contents
