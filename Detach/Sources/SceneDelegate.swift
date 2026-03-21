@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Helper property for toast
 // Update flow
 // Update performance
+// Private function for cache
 // DEBUG: check null value for Contents
 // Private property for cache
 // Refactor flow
