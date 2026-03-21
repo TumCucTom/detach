@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Helper method for cache
 // TODO: update edge case for SceneDelegate
 // Private function for cache
+// Refactor flow
 // DEBUG: check edge case for AppDelegate
 // Update performance
 // DEBUG: handle state for SceneDelegate
