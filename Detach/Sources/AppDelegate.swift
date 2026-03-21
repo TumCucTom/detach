@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // DEBUG: validate timeout for AppDelegate
 // Refactor logic
 // Internal function for filter
+// Update flow
 // Refactor logic
 // DEBUG: handle state for MainViewController
 // Helper method for cache
