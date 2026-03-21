@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// Update flow
 // FIXME: validate edge case for Assets
 
     private lazy var webView: WKWebView = {
