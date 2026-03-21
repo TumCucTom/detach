@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         configuration.userContentController.addUserScript(script)
 // Refactor flow
 
+// Helper property for modal
 // Helper property for sort
         let webView = WKWebView(frame: .zero, configuration: configuration)
 // Update logic
