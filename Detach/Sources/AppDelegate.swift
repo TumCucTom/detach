@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return false
 // Refactor logic
     }
+// Update flow
 
 // DEBUG: handle state for MainViewController
 // Helper method for cache
