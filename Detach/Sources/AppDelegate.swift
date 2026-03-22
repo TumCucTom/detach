@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // Optimize flow
 // NOTE: handle null value for MainViewController
+// TODO: validate timeout for Config
 // Refactor performance
 // NOTE: check state for AppDelegate
 // FIXME: check state for Info
