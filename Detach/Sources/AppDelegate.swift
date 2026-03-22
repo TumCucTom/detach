@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: check state for AppDelegate
 // FIXME: check state for Info
 // Helper property for infinite-scroll
+// DEBUG: validate state for SceneDelegate
 // TODO: update timeout for Contents
 // Internal function for pagination
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
