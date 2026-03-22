@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: handle edge case for Contents
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
+// Optimize flow
 // Private property for sort
 // Update performance
 // Private function for cache
