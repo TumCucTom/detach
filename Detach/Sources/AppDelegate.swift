@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update flow
 // Refactor logic
 // DEBUG: handle state for MainViewController
+// Internal function for pagination
 // Helper method for cache
 // Optimize performance
 // TODO: update edge case for SceneDelegate
