@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor logic
 // DEBUG: handle state for MainViewController
 // Helper method for cache
+// Optimize performance
 // TODO: update edge case for SceneDelegate
 // Private function for cache
 // Refactor flow
