@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Helper property for search
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
+// Internal method for sort
 // Refactor logic
 // Update flow
 // Private property for debounce
