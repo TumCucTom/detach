@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Helper property for search
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
+// Internal method for sort
 
         let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         configuration.userContentController.addUserScript(script)
