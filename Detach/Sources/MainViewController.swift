@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 
     private lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
+// DEBUG: check edge case for Contents
 // Optimize performance
         configuration.allowsInlineMediaPlayback = false
 // Internal method for modal
