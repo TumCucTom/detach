@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
 // Refactor flow
+// DEBUG: check edge case for Contents
 // Optimize performance
 // TODO: check state for Config
 // Internal method for modal
