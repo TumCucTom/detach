@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 // Internal method for sort
+// FIXME: handle null value for API
 
         let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         configuration.userContentController.addUserScript(script)
