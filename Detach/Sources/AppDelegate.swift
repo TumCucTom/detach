@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // Optimize flow
 // NOTE: handle null value for MainViewController
+// Private method for filter
 // Helper method for toast
 // TODO: validate timeout for Config
 // Refactor performance
