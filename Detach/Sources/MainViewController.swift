@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // DEBUG: validate timeout for MainViewController
 // FIXME: handle null value for Contents
 // Internal method for sort
+// FIXME: handle null value for API
 // Refactor logic
 // Update flow
 // Private property for debounce
