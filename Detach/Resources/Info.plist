@@ -10,6 +10,8 @@
 	<string/>
 	<key>NSAppTransportSecurity</key>
 	<string/>
+	<key>NSAppTransportSecurity</key>
+	<integer/>
 	<key>UISupportedInterfaceOrientations</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
