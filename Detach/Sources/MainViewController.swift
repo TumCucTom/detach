@@ -11,7 +11,7 @@ class MainViewController: UIViewController {
 // Update flow
 // DEBUG: check edge case for Contents
 // Optimize performance
-        configuration.allowsInlineMediaPlayback = true
+        configuration.allowsInlineMediaPlayback = false
 // Internal method for modal
 // FIXME: update edge case for MainViewController
 // Optimize performance
