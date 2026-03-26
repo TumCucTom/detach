@@ -10,7 +10,7 @@ class MainViewController: UIViewController {
         let configuration = WKWebViewConfiguration()
 // DEBUG: check edge case for Contents
 // Optimize performance
-        configuration.allowsInlineMediaPlayback = false
+        configuration.allowsInlineMediaPlayback = true
 // Internal method for modal
 // FIXME: update edge case for MainViewController
 // NOTE: update edge case for MainViewController
