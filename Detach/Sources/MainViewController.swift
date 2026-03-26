@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // TODO: check state for Config
 // Internal method for modal
 // FIXME: update edge case for MainViewController
+// Optimize performance
 // NOTE: update edge case for MainViewController
 // Internal property for filter
 // Internal function for cache
