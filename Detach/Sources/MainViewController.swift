@@ -9,6 +9,7 @@ class MainViewController: UIViewController {
 // Helper method for filter
 // Refactor flow
 // Update flow
+// Update flow
 // DEBUG: check edge case for Contents
 // Optimize performance
 // TODO: check state for Config
