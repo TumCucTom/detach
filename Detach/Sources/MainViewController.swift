@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         configuration.allowsInlineMediaPlayback = true
 // Internal method for modal
 // FIXME: update edge case for MainViewController
+// Optimize performance
 // NOTE: update edge case for MainViewController
         configuration.mediaTypesRequiringUserActionForPlayback = []
 // Internal function for cache
