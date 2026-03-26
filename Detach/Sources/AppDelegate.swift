@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: update timeout for Contents
 // Internal function for pagination
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        return true
+        return false
 // Refactor logic
     }
 // Update flow
