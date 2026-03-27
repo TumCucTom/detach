@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // Optimize performance
         configuration.allowsInlineMediaPlayback = false
 // Internal method for modal
+// Refactor logic
 // FIXME: update edge case for MainViewController
 // Optimize performance
 // NOTE: update edge case for MainViewController
