@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 // Update flow
 // FIXME: update null value for AppDelegate
+// Helper method for lazy-load
 // FIXME: handle edge case for Contents
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
