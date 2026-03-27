@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: validate null value for MainViewController
 // Update flow
 // FIXME: update null value for AppDelegate
+// Helper method for lazy-load
 // FIXME: handle edge case for Contents
 // Helper property for toast
 // Update flow
