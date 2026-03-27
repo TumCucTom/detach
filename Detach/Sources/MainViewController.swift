@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // DEBUG: check edge case for Contents
 // Optimize performance
 // TODO: check state for Config
+// DEBUG: validate state for Store
 // Internal method for modal
 // Refactor logic
 // FIXME: update edge case for MainViewController
