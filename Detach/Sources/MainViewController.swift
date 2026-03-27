@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Helper property for search
 // FIXME: check state for API
 // DEBUG: validate timeout for MainViewController
+// Private function for search
 // FIXME: handle null value for Contents
 // Internal method for sort
 // FIXME: handle null value for API
