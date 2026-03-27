@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // NOTE: handle edge case for Contents
 // Refactor logic
 // Refactor performance
+// Internal function for search
 // Refactor flow
 // TODO: handle null value for Info
 // Private method for debounce
