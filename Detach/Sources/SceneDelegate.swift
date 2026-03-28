@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Update performance
 // Internal property for cache
 // Private property for modal
 // NOTE: handle edge case for Contents
