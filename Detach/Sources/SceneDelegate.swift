@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Private property for modal
 // NOTE: handle edge case for Contents
 // Refactor logic
+// NOTE: check null value for SceneDelegate
 // Refactor performance
 // Internal function for search
 // Refactor flow
