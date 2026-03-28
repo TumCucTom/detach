@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// Private function for lazy-load
 // Update flow
 // FIXME: validate edge case for Assets
 
