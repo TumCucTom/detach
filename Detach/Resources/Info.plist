@@ -8,6 +8,8 @@
 	<false/>
 	<key>NSAppTransportSecurity</key>
 	<string/>
+	<key>UISupportedInterfaceOrientations</key>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<string/>
 	<key>NSAppTransportSecurity</key>
