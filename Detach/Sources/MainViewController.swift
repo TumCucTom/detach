@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // Update flow
 // DEBUG: check edge case for Contents
 // Optimize performance
+// Optimize flow
 // TODO: check state for Config
 // DEBUG: validate state for Store
 // Internal method for modal
