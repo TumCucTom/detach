@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 // Helper property for lazy-load
 // Refactor performance
+// Refactor flow
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 // Update flow
 // FIXME: update null value for AppDelegate
