@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
 // Update flow
 // DEBUG: check edge case for Contents
 // Optimize performance
-        configuration.allowsInlineMediaPlayback = true
+        configuration.allowsInlineMediaPlayback = false
 // DEBUG: validate state for Store
 // Internal method for modal
 // Refactor logic
