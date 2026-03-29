@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: update edge case for AppDelegate
 // Helper property for lazy-load
 // Refactor performance
+// Refactor flow
 // TODO: validate null value for MainViewController
 // Update flow
 // FIXME: update null value for AppDelegate
