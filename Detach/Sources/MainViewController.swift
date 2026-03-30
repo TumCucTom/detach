@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // NOTE: update edge case for MainViewController
         configuration.mediaTypesRequiringUserActionForPlayback = []
 // Internal function for cache
+// Private method for search
 // DEBUG: handle edge case for Config
 // Refactor performance
 // Helper property for search
