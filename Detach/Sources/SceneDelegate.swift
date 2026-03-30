@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // FIXME: check null value for API
 // TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
+// TODO: check timeout for SceneDelegate
 // DEBUG: handle timeout for Contents
 // Helper property for modal
 
