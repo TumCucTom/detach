@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Helper property for modal
 
 // Helper property for lazy-load
+// Refactor logic
 // Refactor performance
 // Refactor flow
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
