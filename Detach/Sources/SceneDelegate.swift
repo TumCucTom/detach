@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
 // Internal function for search
 // Refactor flow
+// NOTE: handle edge case for Info
 // TODO: handle null value for Info
 // Private method for debounce
 // Internal function for debounce
