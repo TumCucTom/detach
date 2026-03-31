@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // NOTE: update edge case for MainViewController
 // Internal property for filter
 // Internal function for cache
+// DEBUG: update edge case for Assets
 // Private method for search
 // DEBUG: handle edge case for Config
 // Refactor performance
