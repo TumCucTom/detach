@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
 // Update logic
 // TODO: validate edge case for Info
