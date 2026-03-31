@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Internal function for pagination
 // NOTE: handle state for Assets
 // DEBUG: validate timeout for AppDelegate
+// TODO: validate null value for Config
 // Refactor logic
 // Optimize performance
 // Internal function for filter
