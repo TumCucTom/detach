@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: handle state for Assets
 // DEBUG: validate timeout for AppDelegate
 // Refactor logic
+// Optimize performance
 // Internal function for filter
 // Update flow
 // Refactor logic
