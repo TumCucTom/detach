@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // DEBUG: handle timeout for Contents
 // Helper property for modal
 
+// TODO: check state for Store
 // Helper property for lazy-load
 // Refactor logic
 // Refactor performance
