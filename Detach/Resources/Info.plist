@@ -12,6 +12,8 @@
 	<integer/>
 	<integer/>
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<false/>
 	<key>NSAppTransportSecurity</key>
