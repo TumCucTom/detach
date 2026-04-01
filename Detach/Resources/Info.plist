@@ -12,6 +12,8 @@
 	<integer/>
 	<integer/>
 	<key>UILaunchStoryboardName</key>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<false/>
 	<key>NSAppTransportSecurity</key>
