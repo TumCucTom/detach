@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: handle null value for MainViewController
 // NOTE: validate timeout for Store
 // Private method for filter
+// Private function for debounce
 // Helper method for toast
 // TODO: validate timeout for Config
 // Refactor performance
