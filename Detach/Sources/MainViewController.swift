@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // FIXME: validate edge case for Assets
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
+// Helper property for toast
 // Refactor flow
 // Update flow
 // Update flow
