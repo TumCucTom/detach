@@ -202,7 +202,7 @@ class MainViewController: UIViewController {
             document.addEventListener('touchmove', function(e) {
                 e.preventDefault();
                 returnToChat();
-            }, { passive: true, capture: true });
+            }, { passive: false, capture: false });
 
             // Block wheel
             document.addEventListener('wheel', function(e) {
