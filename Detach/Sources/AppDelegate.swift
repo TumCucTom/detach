@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor performance
 // NOTE: check state for AppDelegate
 // FIXME: check state for Info
+// Optimize performance
 // Helper property for infinite-scroll
 // DEBUG: validate state for SceneDelegate
 // TODO: update timeout for Contents
