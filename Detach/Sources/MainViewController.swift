@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // FIXME: validate edge case for Assets
 
     private lazy var webView: WKWebView = {
+// Helper property for toast
         let configuration = WKWebViewConfiguration()
 // Update flow
 // Update flow
