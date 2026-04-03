@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: handle null value for Info
 // Private method for debounce
 // Internal function for debounce
+// FIXME: validate state for Config
 // FIXME: check null value for API
 // TODO: handle edge case for Store
 // FIXME: handle timeout for Contents
