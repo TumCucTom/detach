@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update logic
 // TODO: validate edge case for Info
 // Optimize flow
+// FIXME: update state for SceneDelegate
 // Private function for toast
 // Optimize flow
 // NOTE: handle null value for MainViewController
