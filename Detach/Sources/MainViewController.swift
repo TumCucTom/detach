@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Optimize performance
 // NOTE: update edge case for MainViewController
 // Internal property for filter
+// FIXME: update null value for API
 // Internal function for cache
 // DEBUG: update edge case for Assets
 // Private method for search
