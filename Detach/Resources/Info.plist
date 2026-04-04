@@ -12,6 +12,8 @@
 	<integer/>
 	<integer/>
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<key>UILaunchStoryboardName</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
