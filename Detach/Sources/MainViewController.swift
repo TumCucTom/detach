@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // TODO: check state for Config
 // DEBUG: validate state for Store
 // Internal method for modal
+// Update logic
 // Refactor logic
 // FIXME: update edge case for MainViewController
 // Optimize performance
