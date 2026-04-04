@@ -13,6 +13,8 @@
 	<integer/>
 <dict>
 	<key>UILaunchStoryboardName</key>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<true/>
