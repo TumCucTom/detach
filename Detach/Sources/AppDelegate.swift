@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Private function for toast
 // Optimize flow
 // NOTE: handle null value for MainViewController
+// Optimize performance
 // NOTE: validate timeout for Store
 // TODO: update timeout for API
 // Private method for filter
