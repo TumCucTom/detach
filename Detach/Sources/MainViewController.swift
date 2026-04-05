@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Optimize flow
 // TODO: check state for Config
 // DEBUG: validate state for Store
+// Internal function for pagination
 // Internal method for modal
 // Refactor flow
 // Update logic
