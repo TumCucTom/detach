@@ -37,37 +37,8 @@ class MainViewController: UIViewController {
             flex: 1 !important;
             text-align: center !important;
         }
-        /* Debug overlay */
-        #debug-overlay {
-            position: fixed;
-            top: 50px;
-            left: 10px;
-            background: purple;
-            color: white;
-            padding: 10px;
-            z-index: 999999;
-            font-size: 10px;
-            border-radius: 5px;
-            max-width: 300px;
-        }
     `;
     document.head.appendChild(style);
-
-    // Debug overlay
-    var debugDiv = document.createElement('div');
-    debugDiv.id = 'debug-overlay';
-    debugDiv.textContent = 'init';
-    document.body.appendChild(debugDiv);
-
-    // Update debug info
-    setInterval(function() {
-        var path = window.location.pathname;
-        var articleCount = document.querySelectorAll('article').length;
-        var divsWithImg = document.querySelectorAll('div img[src*="instagram"], div img[src*="cdninstagram"]').length;
-        var liCount = document.querySelectorAll('li[role="presentation"]').length;
-        var mainDivs = document.querySelectorAll('main > div > div').length;
-        debugDiv.textContent = 'URL: ' + path + ' | articles: ' + articleCount + ' | imgs: ' + divsWithImg + ' | li: ' + liCount + ' | mainDivs: ' + mainDivs;
-    }, 100);
 
     // Send user back to chat
     function returnToChat() {
@@ -127,14 +98,41 @@ class MainViewController: UIViewController {
                 post.style.display = 'none';
             });
 
-            // Hide divs with instagram images (post thumbnails) - but not search input
+            // Hide divs with instagram images (post thumbnails) - but not profile pics or search input
             var postThumbs = document.querySelectorAll('div img[src*="instagram"], div img[src*="cdninstagram"]');
             postThumbs.forEach(function(img) {
                 var parent = img.closest('div');
-                if (parent && !parent.querySelector('input')) {
+                // Check if it's a profile picture (usually small, in header or nav)
+                var isProfilePic = img.getAttribute('src') && (
+                    img.getAttribute('src').includes('profile') ||
+                    img.getAttribute('src').includes('profiles') ||
+                    parent.querySelector('header') ||
+                    parent.querySelector('nav') ||
+                    img.width < 100 || img.height < 100
+                );
+                if (parent && !parent.querySelector('input') && !isProfilePic) {
                     parent.style.display = 'none';
                 }
             });
+
+            // Hide spinner and show "No reels" message
+            var spinners = document.querySelectorAll('svg circle, div[role="progressbar"], div[class*="spinner"], div[class*="loader"]');
+            spinners.forEach(function(el) {
+                el.style.display = 'none';
+            });
+
+            // Add "No reels" message if not already added
+            if (!document.getElementById('no-reels-msg')) {
+                var msg = document.createElement('div');
+                msg.id = 'no-reels-msg';
+                msg.textContent = 'No reels to see here';
+                msg.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:18px;color:#666;z-index:999;font-family:sans-serif;text-align:center;';
+                document.body.appendChild(msg);
+            }
+        } else {
+            // Remove message when leaving explore/search
+            var msg = document.getElementById('no-reels-msg');
+            if (msg) msg.remove();
         }
     }
 
