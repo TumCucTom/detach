@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
         configuration.allowsInlineMediaPlayback = true
 // DEBUG: validate state for Store
 // Internal method for modal
+// Refactor flow
 // Update logic
 // Refactor logic
 // FIXME: update edge case for MainViewController
