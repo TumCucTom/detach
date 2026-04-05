@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Optimize flow
         configuration.allowsInlineMediaPlayback = true
 // DEBUG: validate state for Store
+// Internal function for pagination
 // Internal method for modal
 // Refactor flow
 // Update logic
