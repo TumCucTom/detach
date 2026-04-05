@@ -22,11 +22,13 @@ class MainViewController: UIViewController {
     private let hideReelsScript = """
     var style = document.createElement('style');
     style.innerHTML = `
+        /* Hide Reels nav button */
         a[href="/reels/"], a[href*="/reels"], nav a[aria-label="Reels"], div[role="menuitem"][aria-label="Reels"],
         header a[href*="reel"], svg path[d*="M12.225"], div[data-bloks-id*="reels"],
         li a[href*="reels"], div[data-bloks-id*="reels_tray"] {
             display: none !important;
         }
+        /* Rescale remaining nav items to be equidistant */
         nav[role="navigation"] ul {
             display: flex !important;
             justify-content: space-evenly !important;
@@ -35,10 +37,88 @@ class MainViewController: UIViewController {
             flex: 1 !important;
             text-align: center !important;
         }
+        /* Block the main reels discover feed */
+        main[role="main"] > div:first-child > div:first-child:has(div[style*="reels"]),
+        div[data-bloks-id*="reels"] {
+            display: none !important;
+        }
+        /* Debug overlay */
+        #debug-overlay {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: red;
+            color: white;
+            padding: 10px;
+            z-index: 999999;
+            font-size: 12px;
+            border-radius: 5px;
+        }
     `;
     document.head.appendChild(style);
 
+    // Debug overlay
+    var debugDiv = document.createElement('div');
+    debugDiv.id = 'debug-overlay';
+    debugDiv.textContent = 'init';
+    document.body.appendChild(debugDiv);
+
+    // Send user back to chat
+    function returnToChat() {
+        debugDiv.textContent = 'returnToChat called';
+        var closeBtn = document.querySelector('button[aria-label="Close"], button[aria-label="Back"], header button');
+        if (closeBtn) {
+            closeBtn.click();
+        } else {
+            window.location.href = '/direct/inbox/';
+        }
+    }
+
+    // Block scrolling when video appears in DM context
+    setInterval(function() {
+        var hasVideo = document.querySelector('video') !== null;
+        var inDM = window.location.pathname.includes('/direct/');
+
+        if (hasVideo && inDM) {
+            debugDiv.textContent = 'blocking scroll | inDM: true';
+            debugDiv.style.background = 'blue';
+
+            // Try to prevent scrolling
+            document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
+        } else {
+            debugDiv.textContent = 'no video or not DM | video: ' + hasVideo + ' | DM: ' + inDM;
+        }
+    }, 100);
+
+    // Add blocking events whenever video is present
+    setInterval(function() {
+        if (document.querySelector('video') && window.location.pathname.includes('/direct/')) {
+            // Block touchmove
+            document.addEventListener('touchmove', function(e) {
+                e.preventDefault();
+                returnToChat();
+            }, { passive: false, capture: true });
+
+            // Block wheel
+            document.addEventListener('wheel', function(e) {
+                e.preventDefault();
+                returnToChat();
+            }, { passive: false, capture: true });
+
+            // Block click on background (not on interactive elements)
+            document.addEventListener('click', function(e) {
+                var target = e.target;
+                if (!target.closest('button, a, [role="button"], input, textarea')) {
+                    e.preventDefault();
+                    returnToChat();
+                }
+            }, { passive: false, capture: true });
+        }
+    }, 200);
+
     var observer = new MutationObserver(function() {
+        // Hide any dynamically loaded reels elements
         var reels = document.querySelectorAll('a[href="/reels/"], a[href*="/reels"], a[aria-label="Reels"], nav a[aria-label="Reels"], div[role="menuitem"][aria-label="Reels"], li a[href*="reels"]');
         reels.forEach(function(el) {
             el.style.display = 'none';
