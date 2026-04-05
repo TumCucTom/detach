@@ -42,30 +42,11 @@ class MainViewController: UIViewController {
         div[data-bloks-id*="reels"] {
             display: none !important;
         }
-        /* Debug overlay */
-        #debug-overlay {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            background: red;
-            color: white;
-            padding: 10px;
-            z-index: 999999;
-            font-size: 12px;
-            border-radius: 5px;
-        }
     `;
     document.head.appendChild(style);
 
-    // Debug overlay
-    var debugDiv = document.createElement('div');
-    debugDiv.id = 'debug-overlay';
-    debugDiv.textContent = 'init';
-    document.body.appendChild(debugDiv);
-
     // Send user back to chat
     function returnToChat() {
-        debugDiv.textContent = 'returnToChat called';
         var closeBtn = document.querySelector('button[aria-label="Close"], button[aria-label="Back"], header button');
         if (closeBtn) {
             closeBtn.click();
@@ -80,14 +61,8 @@ class MainViewController: UIViewController {
         var inDM = window.location.pathname.includes('/direct/');
 
         if (hasVideo && inDM) {
-            debugDiv.textContent = 'blocking scroll | inDM: true';
-            debugDiv.style.background = 'blue';
-
-            // Try to prevent scrolling
             document.body.style.overflow = 'hidden';
             document.documentElement.style.overflow = 'hidden';
-        } else {
-            debugDiv.textContent = 'no video or not DM | video: ' + hasVideo + ' | DM: ' + inDM;
         }
     }, 100);
 
