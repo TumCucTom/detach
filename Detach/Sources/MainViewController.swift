@@ -37,13 +37,37 @@ class MainViewController: UIViewController {
             flex: 1 !important;
             text-align: center !important;
         }
-        /* Block the main reels discover feed */
-        main[role="main"] > div:first-child > div:first-child:has(div[style*="reels"]),
-        div[data-bloks-id*="reels"] {
-            display: none !important;
+        /* Debug overlay */
+        #debug-overlay {
+            position: fixed;
+            top: 50px;
+            left: 10px;
+            background: purple;
+            color: white;
+            padding: 10px;
+            z-index: 999999;
+            font-size: 10px;
+            border-radius: 5px;
+            max-width: 300px;
         }
     `;
     document.head.appendChild(style);
+
+    // Debug overlay
+    var debugDiv = document.createElement('div');
+    debugDiv.id = 'debug-overlay';
+    debugDiv.textContent = 'init';
+    document.body.appendChild(debugDiv);
+
+    // Update debug info
+    setInterval(function() {
+        var path = window.location.pathname;
+        var articleCount = document.querySelectorAll('article').length;
+        var divsWithImg = document.querySelectorAll('div img[src*="instagram"], div img[src*="cdninstagram"]').length;
+        var liCount = document.querySelectorAll('li[role="presentation"]').length;
+        var mainDivs = document.querySelectorAll('main > div > div').length;
+        debugDiv.textContent = 'URL: ' + path + ' | articles: ' + articleCount + ' | imgs: ' + divsWithImg + ' | li: ' + liCount + ' | mainDivs: ' + mainDivs;
+    }, 100);
 
     // Send user back to chat
     function returnToChat() {
@@ -91,6 +115,30 @@ class MainViewController: UIViewController {
             }, { passive: false, capture: true });
         }
     }, 200);
+
+    // Block posts on explore/search page ONLY
+    function blockExplorePosts() {
+        var path = window.location.pathname;
+        // Only block on explore and search pages, NOT home
+        if ((path.includes('/explore/') || path.includes('/search/')) && !path.includes('/direct/')) {
+            // Hide article posts
+            var posts = document.querySelectorAll('article');
+            posts.forEach(function(post) {
+                post.style.display = 'none';
+            });
+
+            // Hide divs with instagram images (post thumbnails) - but not search input
+            var postThumbs = document.querySelectorAll('div img[src*="instagram"], div img[src*="cdninstagram"]');
+            postThumbs.forEach(function(img) {
+                var parent = img.closest('div');
+                if (parent && !parent.querySelector('input')) {
+                    parent.style.display = 'none';
+                }
+            });
+        }
+    }
+
+    setInterval(blockExplorePosts, 200);
 
     var observer = new MutationObserver(function() {
         // Hide any dynamically loaded reels elements
