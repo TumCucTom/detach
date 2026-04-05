@@ -24,8 +24,10 @@ targets:
     platform: iOS
     sources:
       - Sources
-    resources:
-      - Resources
+      - path: Resources/Assets.xcassets
+        buildPhase: resources
+      - path: Resources/LaunchScreen.storyboard
+        buildPhase: resources
     settings:
       base:
         INFOPLIST_FILE: Resources/Info.plist

@@ -3,20 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		56601A538D89C0A18E37C2C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 12CF2D9650581B6DDC1C1E49 /* SnapKit */; };
 		61B0CDDE23B3E1FDCC97EC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5356F662FA962EA2EC528 /* AppDelegate.swift */; };
 		8E5CEA86D2F75C0D15900A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA08DDB351D53E37877D453 /* SceneDelegate.swift */; };
+		B6EC3C86B2627DD74273F82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC260E76492D7062177CA1A /* Assets.xcassets */; };
+		C616D1B02BF1547FB4604D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */; };
 		E02F8CAD79B19729ED0182DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD765A914C56D283B5BEA969 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8333378D7BC78EBCDB169AD1 /* Detach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8333378D7BC78EBCDB169AD1 /* Detach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Detach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA08DDB351D53E37877D453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD765A914C56D283B5BEA969 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DFC260E76492D7062177CA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F5356F662FA962EA2EC528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,9 +57,19 @@
 		D04123DBBEF7439CD204F2E6 = {
 			isa = PBXGroup;
 			children = (
+				F3F45EAAF045C609B6D5CE38 /* Resources */,
 				406DD3E61BE0E284916A639C /* Sources */,
 				9C4DCFB84D409CB708195419 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		F3F45EAAF045C609B6D5CE38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFC260E76492D7062177CA1A /* Assets.xcassets */,
+				7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +80,7 @@
 			buildConfigurationList = 1D4EA47ADD743EDD432C69CE /* Build configuration list for PBXNativeTarget "Detach" */;
 			buildPhases = (
 				E62EEED5297781A5C02A9D18 /* Sources */,
+				E390CB5B761F24CD825FF06A /* Resources */,
 				3B2F5DF480A3C8C521245BFE /* Frameworks */,
 			);
 			buildRules = (
@@ -107,6 +122,7 @@
 			packageReferences = (
 				85E450311777CC49D36D655C /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -114,6 +130,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E390CB5B761F24CD825FF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EC3C86B2627DD74273F82F /* Assets.xcassets in Resources */,
+				C616D1B02BF1547FB4604D9E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E62EEED5297781A5C02A9D18 /* Sources */ = {
@@ -135,7 +163,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUS43G654Z;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -143,9 +170,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.detach.app;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -281,7 +305,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUS43G654Z;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,9 +312,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.detach.app;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
