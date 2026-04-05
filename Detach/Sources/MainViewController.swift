@@ -8,13 +8,51 @@ class MainViewController: UIViewController {
         let configuration = WKWebViewConfiguration()
         configuration.allowsInlineMediaPlayback = true
         configuration.mediaTypesRequiringUserActionForPlayback = []
-        
+
+        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
+        configuration.userContentController.addUserScript(script)
+
         let webView = WKWebView(frame: .zero, configuration: configuration)
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.contentInsetAdjustmentBehavior = .automatic
         return webView
     }()
+
+    private let hideReelsScript = """
+    var style = document.createElement('style');
+    style.innerHTML = `
+        a[href="/reels/"], a[href*="/reels"], nav a[aria-label="Reels"], div[role="menuitem"][aria-label="Reels"],
+        header a[href*="reel"], svg path[d*="M12.225"], div[data-bloks-id*="reels"],
+        li a[href*="reels"], div[data-bloks-id*="reels_tray"] {
+            display: none !important;
+        }
+        nav[role="navigation"] ul {
+            display: flex !important;
+            justify-content: space-evenly !important;
+        }
+        nav[role="navigation"] ul li {
+            flex: 1 !important;
+            text-align: center !important;
+        }
+    `;
+    document.head.appendChild(style);
+
+    var observer = new MutationObserver(function() {
+        var reels = document.querySelectorAll('a[href="/reels/"], a[href*="/reels"], a[aria-label="Reels"], nav a[aria-label="Reels"], div[role="menuitem"][aria-label="Reels"], li a[href*="reels"]');
+        reels.forEach(function(el) {
+            el.style.display = 'none';
+            el.parentElement ? el.parentElement.style.display = 'none' : null;
+        });
+        // Rescale nav items
+        var nav = document.querySelector('nav[role="navigation"] ul');
+        if (nav) {
+            nav.style.display = 'flex';
+            nav.style.justifyContent = 'space-evenly';
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    """
 
     private lazy var progressView: UIProgressView = {
         let progressView = UIProgressView(progressViewStyle: .bar)
