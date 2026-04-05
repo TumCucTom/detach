@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update logic
 // FIXME: check state for Info
 // Optimize performance
+// Helper method for pagination
 // Helper property for infinite-scroll
 // DEBUG: validate state for SceneDelegate
 // TODO: update timeout for Contents
