@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // NOTE: validate null value for API
 // NOTE: check null value for SceneDelegate
 // Refactor performance
+// Optimize flow
 // Internal function for search
 // Refactor flow
 // Private function for search
