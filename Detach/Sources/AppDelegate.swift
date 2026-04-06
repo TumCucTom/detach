@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update logic
 // TODO: validate edge case for Info
 // Optimize flow
+// FIXME: update timeout for Info
 // Helper property for pagination
 // FIXME: update state for SceneDelegate
 // Private function for toast
