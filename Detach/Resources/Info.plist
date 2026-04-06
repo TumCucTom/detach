@@ -18,6 +18,8 @@
 	<key>UILaunchStoryboardName</key>
 	<key>NSAppTransportSecurity</key>
 	<false/>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<key>UILaunchStoryboardName</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
