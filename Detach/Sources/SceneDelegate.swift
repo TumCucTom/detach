@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Update flow
 // NOTE: validate state for Contents
 // Update performance
 // Internal property for cache
