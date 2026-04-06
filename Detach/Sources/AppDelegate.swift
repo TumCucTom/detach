@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: update timeout for API
 // Private method for filter
 // Private function for debounce
+// Helper property for debounce
 // Helper method for toast
 // TODO: validate timeout for Config
 // Refactor performance
