@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042B15B12940FB3BAC86FA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */; };
-		150201645B045DF4AD3C0C27 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 815BA53976FDD2BC497DEB3E /* SnapKit */; };
-		6A9B8BEB5852C07A16AC7E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */; };
-		A5257B635979A51094F38717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */; };
-		DD7CEF1CBDB16CCE16C9CEA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1495650EFC835481481377 /* MainViewController.swift */; };
-		FFB3E3977C0D9C6A8E9562EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */; };
+		3E0B59D884E83F7BFA30CF8C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3736B21554A9BB9818F7F /* MainViewController.swift */; };
+		70418CE66C32F838A3D1B404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4F75554EE3BD2C14470A2 /* AppDelegate.swift */; };
+		78F3FCBB3489AC5867FA1E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA765E2E46B5CBBA338B4555 /* Assets.xcassets */; };
+		8C6336400D145A1913F20D24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B783635DEB22BD9E0CD67 /* SceneDelegate.swift */; };
+		B8259091464684141FCF359C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40E99818C686D21DFAB4C4F /* LaunchScreen.storyboard */; };
+		DB25C83136D8DD62F0666FDC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F16BFC4ABB67394C2FF750C4 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F1495650EFC835481481377 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		901F61B31C78EECEDCB3F9D2 /* Reclaim.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Reclaim.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FA4F75554EE3BD2C14470A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435B783635DEB22BD9E0CD67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8A49EFC665061C042FDB0D8 /* NoReels.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NoReels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E99818C686D21DFAB4C4F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA765E2E46B5CBBA338B4555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C3736B21554A9BB9818F7F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		539EA504E008563EF40C0FE8 /* Frameworks */ = {
+		538D0D1D75B5753F8EF7764E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150201645B045DF4AD3C0C27 /* SnapKit in Frameworks */,
+				DB25C83136D8DD62F0666FDC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274851AE928B7566501B0D88 /* Sources */ = {
+		29F5A4140935EFE78710DB20 = {
 			isa = PBXGroup;
 			children = (
-				D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */,
-				1F1495650EFC835481481377 /* MainViewController.swift */,
-				7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */,
+				A0448D9C3170ECDCBCC1D316 /* Resources */,
+				398272C07406207C7A1A44C6 /* Sources */,
+				3A69874614685641C3F04F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398272C07406207C7A1A44C6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0FA4F75554EE3BD2C14470A2 /* AppDelegate.swift */,
+				F7C3736B21554A9BB9818F7F /* MainViewController.swift */,
+				435B783635DEB22BD9E0CD67 /* SceneDelegate.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		366A4BBE6D1EC01B645C552A /* Products */ = {
+		3A69874614685641C3F04F5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				901F61B31C78EECEDCB3F9D2 /* Reclaim.app */,
+				B8A49EFC665061C042FDB0D8 /* NoReels.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54E2DA8CA513E050CE71A440 = {
+		A0448D9C3170ECDCBCC1D316 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6BF300C0352D975E2084E57D /* Resources */,
-				274851AE928B7566501B0D88 /* Sources */,
-				366A4BBE6D1EC01B645C552A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		6BF300C0352D975E2084E57D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */,
-				DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */,
+				EA765E2E46B5CBBA338B4555 /* Assets.xcassets */,
+				E40E99818C686D21DFAB4C4F /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -75,41 +75,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C31192A22B4F372D07E0D947 /* Reclaim */ = {
+		A8EF204202C3BE52C541439D /* NoReels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20CC321C91CD0F191A516650 /* Build configuration list for PBXNativeTarget "Reclaim" */;
+			buildConfigurationList = 8898AE0FF90039A0233C1186 /* Build configuration list for PBXNativeTarget "NoReels" */;
 			buildPhases = (
-				85DB9C29033FF0F733B35BEC /* Sources */,
-				26BDC61D5FA617CA2F5338F8 /* Resources */,
-				539EA504E008563EF40C0FE8 /* Frameworks */,
+				537838724CF72945E08CBB1A /* Sources */,
+				2880BBF242B0DE295C9DF5A7 /* Resources */,
+				538D0D1D75B5753F8EF7764E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Reclaim;
+			name = NoReels;
 			packageProductDependencies = (
-				815BA53976FDD2BC497DEB3E /* SnapKit */,
+				F16BFC4ABB67394C2FF750C4 /* SnapKit */,
 			);
-			productName = Reclaim;
-			productReference = 901F61B31C78EECEDCB3F9D2 /* Reclaim.app */;
+			productName = NoReels;
+			productReference = B8A49EFC665061C042FDB0D8 /* NoReels.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23FE279FF0BDB8C6D0AA5CB7 /* Project object */ = {
+		0AF85EC230AF5BFDEF7237A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					C31192A22B4F372D07E0D947 = {
+					A8EF204202C3BE52C541439D = {
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 16781BC673027A5B1696C3FC /* Build configuration list for PBXProject "Reclaim" */;
+			buildConfigurationList = 628F77787F4E617ED10DCF66 /* Build configuration list for PBXProject "NoReels" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,47 +117,64 @@
 				Base,
 				en,
 			);
-			mainGroup = 54E2DA8CA513E050CE71A440;
+			mainGroup = 29F5A4140935EFE78710DB20;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0304F4DA254AC46BDAA37786 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C31192A22B4F372D07E0D947 /* Reclaim */,
+				A8EF204202C3BE52C541439D /* NoReels */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26BDC61D5FA617CA2F5338F8 /* Resources */ = {
+		2880BBF242B0DE295C9DF5A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB3E3977C0D9C6A8E9562EC /* Assets.xcassets in Resources */,
-				A5257B635979A51094F38717 /* LaunchScreen.storyboard in Resources */,
+				78F3FCBB3489AC5867FA1E4D /* Assets.xcassets in Resources */,
+				B8259091464684141FCF359C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85DB9C29033FF0F733B35BEC /* Sources */ = {
+		537838724CF72945E08CBB1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042B15B12940FB3BAC86FA9A /* AppDelegate.swift in Sources */,
-				DD7CEF1CBDB16CCE16C9CEA8 /* MainViewController.swift in Sources */,
-				6A9B8BEB5852C07A16AC7E5B /* SceneDelegate.swift in Sources */,
+				70418CE66C32F838A3D1B404 /* AppDelegate.swift in Sources */,
+				3E0B59D884E83F7BFA30CF8C /* MainViewController.swift in Sources */,
+				8C6336400D145A1913F20D24 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		026FE0BD6D4514C27E226FF3 /* Debug */ = {
+		5261EF11780D7C203A706708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noreels-social.app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD7A756C3935B5F1F49E179B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,24 +240,7 @@
 			};
 			name = Debug;
 		};
-		6C55A52D5C2717C6229DAF1D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.reclaim-social.app";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E132C960C71F91F97AD034A9 /* Release */ = {
+		B7250BC3D5D3E51D61EE24D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +299,7 @@
 			};
 			name = Release;
 		};
-		EFD2ACB67F1279FD4C56A58F /* Release */ = {
+		D2C4EEA3A38FF408C4893167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,29 +310,29 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.reclaim-social.app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noreels-social.app";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16781BC673027A5B1696C3FC /* Build configuration list for PBXProject "Reclaim" */ = {
+		628F77787F4E617ED10DCF66 /* Build configuration list for PBXProject "NoReels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				026FE0BD6D4514C27E226FF3 /* Debug */,
-				E132C960C71F91F97AD034A9 /* Release */,
+				AD7A756C3935B5F1F49E179B /* Debug */,
+				B7250BC3D5D3E51D61EE24D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		20CC321C91CD0F191A516650 /* Build configuration list for PBXNativeTarget "Reclaim" */ = {
+		8898AE0FF90039A0233C1186 /* Build configuration list for PBXNativeTarget "NoReels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C55A52D5C2717C6229DAF1D /* Debug */,
-				EFD2ACB67F1279FD4C56A58F /* Release */,
+				D2C4EEA3A38FF408C4893167 /* Debug */,
+				5261EF11780D7C203A706708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -340,7 +340,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		0304F4DA254AC46BDAA37786 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -351,12 +351,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		815BA53976FDD2BC497DEB3E /* SnapKit */ = {
+		F16BFC4ABB67394C2FF750C4 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 0304F4DA254AC46BDAA37786 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 23FE279FF0BDB8C6D0AA5CB7 /* Project object */;
+	rootObject = 0AF85EC230AF5BFDEF7237A1 /* Project object */;
 }

@@ -1,6 +1,6 @@
-name: Reclaim
+name: NoReels
 options:
-  bundleIdPrefix: com.reclaim
+  bundleIdPrefix: com.noreels
   deploymentTarget:
     iOS: "15.0"
   xcodeVersion: "15.0"
@@ -19,7 +19,7 @@ packages:
     from: "5.7.0"
 
 targets:
-  Reclaim:
+  NoReels:
     type: application
     platform: iOS
     sources:
@@ -31,7 +31,7 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: Resources/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.reclaim-social.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.noreels-social.app
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     dependencies:
@@ -39,8 +39,8 @@ targets:
     info:
       path: Resources/Info.plist
       properties:
-        CFBundleDisplayName: Reclaim
-        CFBundleName: Reclaim
+        CFBundleDisplayName: NoReels
+        CFBundleName: NoReels
         CFBundleShortVersionString: "1.0.0"
         CFBundleVersion: "1"
         UILaunchStoryboardName: LaunchScreen
