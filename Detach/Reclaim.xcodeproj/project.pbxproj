@@ -3,71 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56601A538D89C0A18E37C2C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 12CF2D9650581B6DDC1C1E49 /* SnapKit */; };
-		61B0CDDE23B3E1FDCC97EC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5356F662FA962EA2EC528 /* AppDelegate.swift */; };
-		8E5CEA86D2F75C0D15900A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA08DDB351D53E37877D453 /* SceneDelegate.swift */; };
-		B6EC3C86B2627DD74273F82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC260E76492D7062177CA1A /* Assets.xcassets */; };
-		C616D1B02BF1547FB4604D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */; };
-		E02F8CAD79B19729ED0182DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD765A914C56D283B5BEA969 /* MainViewController.swift */; };
+		042B15B12940FB3BAC86FA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */; };
+		150201645B045DF4AD3C0C27 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 815BA53976FDD2BC497DEB3E /* SnapKit */; };
+		6A9B8BEB5852C07A16AC7E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */; };
+		A5257B635979A51094F38717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */; };
+		DD7CEF1CBDB16CCE16C9CEA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1495650EFC835481481377 /* MainViewController.swift */; };
+		FFB3E3977C0D9C6A8E9562EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8333378D7BC78EBCDB169AD1 /* Detach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detach.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BA08DDB351D53E37877D453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD765A914C56D283B5BEA969 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		DFC260E76492D7062177CA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4F5356F662FA962EA2EC528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1495650EFC835481481377 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		901F61B31C78EECEDCB3F9D2 /* Reclaim.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Reclaim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B2F5DF480A3C8C521245BFE /* Frameworks */ = {
+		539EA504E008563EF40C0FE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56601A538D89C0A18E37C2C3 /* SnapKit in Frameworks */,
+				150201645B045DF4AD3C0C27 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		406DD3E61BE0E284916A639C /* Sources */ = {
+		274851AE928B7566501B0D88 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E4F5356F662FA962EA2EC528 /* AppDelegate.swift */,
-				DD765A914C56D283B5BEA969 /* MainViewController.swift */,
-				8BA08DDB351D53E37877D453 /* SceneDelegate.swift */,
+				D04B814E1E4DCD82EBE76FD1 /* AppDelegate.swift */,
+				1F1495650EFC835481481377 /* MainViewController.swift */,
+				7EA6ADEA3B3DDD111B6A66F3 /* SceneDelegate.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		9C4DCFB84D409CB708195419 /* Products */ = {
+		366A4BBE6D1EC01B645C552A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8333378D7BC78EBCDB169AD1 /* Detach.app */,
+				901F61B31C78EECEDCB3F9D2 /* Reclaim.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D04123DBBEF7439CD204F2E6 = {
+		54E2DA8CA513E050CE71A440 = {
 			isa = PBXGroup;
 			children = (
-				F3F45EAAF045C609B6D5CE38 /* Resources */,
-				406DD3E61BE0E284916A639C /* Sources */,
-				9C4DCFB84D409CB708195419 /* Products */,
+				6BF300C0352D975E2084E57D /* Resources */,
+				274851AE928B7566501B0D88 /* Sources */,
+				366A4BBE6D1EC01B645C552A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3F45EAAF045C609B6D5CE38 /* Resources */ = {
+		6BF300C0352D975E2084E57D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DFC260E76492D7062177CA1A /* Assets.xcassets */,
-				7D9722C8B53533361E1691A1 /* LaunchScreen.storyboard */,
+				1BCCC1C585EFEB4F862F2E8F /* Assets.xcassets */,
+				DB548B719DADEE455E9B8044 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -75,41 +75,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BE2B55C051D0651D7A0A18E /* Detach */ = {
+		C31192A22B4F372D07E0D947 /* Reclaim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D4EA47ADD743EDD432C69CE /* Build configuration list for PBXNativeTarget "Detach" */;
+			buildConfigurationList = 20CC321C91CD0F191A516650 /* Build configuration list for PBXNativeTarget "Reclaim" */;
 			buildPhases = (
-				E62EEED5297781A5C02A9D18 /* Sources */,
-				E390CB5B761F24CD825FF06A /* Resources */,
-				3B2F5DF480A3C8C521245BFE /* Frameworks */,
+				85DB9C29033FF0F733B35BEC /* Sources */,
+				26BDC61D5FA617CA2F5338F8 /* Resources */,
+				539EA504E008563EF40C0FE8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Detach;
+			name = Reclaim;
 			packageProductDependencies = (
-				12CF2D9650581B6DDC1C1E49 /* SnapKit */,
+				815BA53976FDD2BC497DEB3E /* SnapKit */,
 			);
-			productName = Detach;
-			productReference = 8333378D7BC78EBCDB169AD1 /* Detach.app */;
+			productName = Reclaim;
+			productReference = 901F61B31C78EECEDCB3F9D2 /* Reclaim.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		037EDC37EA2ECCD1D3D91798 /* Project object */ = {
+		23FE279FF0BDB8C6D0AA5CB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2BE2B55C051D0651D7A0A18E = {
+					C31192A22B4F372D07E0D947 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 20FA2F948ED1EF8AE98F71A0 /* Build configuration list for PBXProject "Detach" */;
+			buildConfigurationList = 16781BC673027A5B1696C3FC /* Build configuration list for PBXProject "Reclaim" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,65 +117,47 @@
 				Base,
 				en,
 			);
-			mainGroup = D04123DBBEF7439CD204F2E6;
+			mainGroup = 54E2DA8CA513E050CE71A440;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				85E450311777CC49D36D655C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BE2B55C051D0651D7A0A18E /* Detach */,
+				C31192A22B4F372D07E0D947 /* Reclaim */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E390CB5B761F24CD825FF06A /* Resources */ = {
+		26BDC61D5FA617CA2F5338F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6EC3C86B2627DD74273F82F /* Assets.xcassets in Resources */,
-				C616D1B02BF1547FB4604D9E /* LaunchScreen.storyboard in Resources */,
+				FFB3E3977C0D9C6A8E9562EC /* Assets.xcassets in Resources */,
+				A5257B635979A51094F38717 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E62EEED5297781A5C02A9D18 /* Sources */ = {
+		85DB9C29033FF0F733B35BEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B0CDDE23B3E1FDCC97EC84 /* AppDelegate.swift in Sources */,
-				E02F8CAD79B19729ED0182DE /* MainViewController.swift in Sources */,
-				8E5CEA86D2F75C0D15900A97 /* SceneDelegate.swift in Sources */,
+				042B15B12940FB3BAC86FA9A /* AppDelegate.swift in Sources */,
+				DD7CEF1CBDB16CCE16C9CEA8 /* MainViewController.swift in Sources */,
+				6A9B8BEB5852C07A16AC7E5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1AF833E464E4D0D0DFB38DA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUS43G654Z;
-				INFOPLIST_FILE = Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Reclaim;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.reclaim-social.app";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6D5FD07E134E5D42CB1D0AAA /* Debug */ = {
+		026FE0BD6D4514C27E226FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +223,24 @@
 			};
 			name = Debug;
 		};
-		6EBE3EF6B8E77EAAD236F415 /* Release */ = {
+		6C55A52D5C2717C6229DAF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reclaim-social.app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E132C960C71F91F97AD034A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,15 +299,13 @@
 			};
 			name = Release;
 		};
-		E9A15CF65971D279F1761634 /* Debug */ = {
+		EFD2ACB67F1279FD4C56A58F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUS43G654Z;
 				INFOPLIST_FILE = Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Reclaim;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,25 +314,25 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D4EA47ADD743EDD432C69CE /* Build configuration list for PBXNativeTarget "Detach" */ = {
+		16781BC673027A5B1696C3FC /* Build configuration list for PBXProject "Reclaim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9A15CF65971D279F1761634 /* Debug */,
-				1AF833E464E4D0D0DFB38DA7 /* Release */,
+				026FE0BD6D4514C27E226FF3 /* Debug */,
+				E132C960C71F91F97AD034A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		20FA2F948ED1EF8AE98F71A0 /* Build configuration list for PBXProject "Detach" */ = {
+		20CC321C91CD0F191A516650 /* Build configuration list for PBXNativeTarget "Reclaim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D5FD07E134E5D42CB1D0AAA /* Debug */,
-				6EBE3EF6B8E77EAAD236F415 /* Release */,
+				6C55A52D5C2717C6229DAF1D /* Debug */,
+				EFD2ACB67F1279FD4C56A58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -343,7 +340,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		85E450311777CC49D36D655C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -354,12 +351,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		12CF2D9650581B6DDC1C1E49 /* SnapKit */ = {
+		815BA53976FDD2BC497DEB3E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 85E450311777CC49D36D655C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 6B2CD2B03C4B942EBE1AE0C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 037EDC37EA2ECCD1D3D91798 /* Project object */;
+	rootObject = 23FE279FF0BDB8C6D0AA5CB7 /* Project object */;
 }

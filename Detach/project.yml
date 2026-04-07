@@ -1,6 +1,6 @@
-name: Detach
+name: Reclaim
 options:
-  bundleIdPrefix: com.detach
+  bundleIdPrefix: com.reclaim
   deploymentTarget:
     iOS: "15.0"
   xcodeVersion: "15.0"
@@ -19,7 +19,7 @@ packages:
     from: "5.7.0"
 
 targets:
-  Detach:
+  Reclaim:
     type: application
     platform: iOS
     sources:
@@ -40,7 +40,7 @@ targets:
       path: Resources/Info.plist
       properties:
         CFBundleDisplayName: Reclaim
-        CFBundleName: Detach
+        CFBundleName: Reclaim
         CFBundleShortVersionString: "1.0.0"
         CFBundleVersion: "1"
         UILaunchStoryboardName: LaunchScreen
