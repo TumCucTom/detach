@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Internal method for modal
 // Refactor flow
 // Update logic
+// NOTE: check edge case for Info
 // Refactor logic
 // FIXME: update edge case for MainViewController
 // Optimize performance
