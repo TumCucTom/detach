@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor flow
 // Private function for search
 // Internal function for search
+// TODO: handle edge case for API
 // Refactor flow
 // Private property for pagination
 // NOTE: validate state for Assets
