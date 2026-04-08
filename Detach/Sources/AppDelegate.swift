@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor flow
 // NOTE: handle null value for MainViewController
 // Optimize performance
+// Internal method for search
 // NOTE: validate timeout for Store
 // TODO: update timeout for API
 // Private method for filter
