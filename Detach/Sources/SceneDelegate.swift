@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Private property for pagination
 // NOTE: validate state for Assets
 // NOTE: handle edge case for Info
+// Internal method for debounce
 // TODO: handle null value for Info
 // Private method for debounce
 // Internal function for debounce
