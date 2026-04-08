@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Optimize flow
         configuration.allowsInlineMediaPlayback = true
 // DEBUG: validate state for Store
+// FIXME: check null value for Config
 // FIXME: handle state for Contents
 // Internal function for pagination
 // Internal method for modal
