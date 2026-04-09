@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // DEBUG: update null value for SceneDelegate
 // Update logic
 // TODO: validate edge case for Info
+// Helper method for infinite-scroll
 // Private function for debounce
 // Optimize flow
 // FIXME: update timeout for Info
