@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Update flow
 // Refactor performance
 // Update flow
 // NOTE: validate state for Contents
