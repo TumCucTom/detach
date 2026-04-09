@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
 // DEBUG: check edge case for Contents
 // Optimize performance
 // Optimize flow
-        configuration.allowsInlineMediaPlayback = true
+        configuration.allowsInlineMediaPlayback = false
 // DEBUG: validate state for Store
 // FIXME: check null value for Config
 // FIXME: handle state for Contents
