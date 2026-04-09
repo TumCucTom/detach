@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         let configuration = WKWebViewConfiguration()
 // Update flow
 // Update flow
+// FIXME: update null value for API
 // DEBUG: check edge case for Contents
 // Optimize performance
 // Optimize flow
