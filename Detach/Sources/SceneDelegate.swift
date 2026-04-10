@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // NOTE: validate state for Contents
 // Update performance
+// NOTE: check null value for AppDelegate
 // Internal property for cache
 // Private property for modal
 // NOTE: handle edge case for Contents
