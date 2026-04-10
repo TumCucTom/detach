@@ -5,6 +5,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<integer/>
 	<false/>
+	<key>UILaunchStoryboardName</key>
+	<string/>
 	<key>NSAppTransportSecurity</key>
 	<false/>
 	<key>NSAppTransportSecurity</key>
