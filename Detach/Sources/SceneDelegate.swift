@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // NOTE: handle edge case for Contents
 // Refactor logic
 // NOTE: validate null value for API
+// Private method for debounce
 // NOTE: check null value for SceneDelegate
 // Refactor performance
 // Optimize flow
