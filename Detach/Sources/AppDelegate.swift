@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // FIXME: update timeout for Info
 // Helper property for pagination
+// Private function for filter
 // FIXME: handle state for MainViewController
 // FIXME: update state for SceneDelegate
 // Private function for toast
