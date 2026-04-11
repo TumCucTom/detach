@@ -137,7 +137,7 @@ class MainViewController: UIViewController {
 // Internal method for sort
 // FIXME: handle null value for API
 
-        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
+        let script = WKUserScript(source: hideReelsScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
         configuration.userContentController.addUserScript(script)
 // Refactor flow
 
