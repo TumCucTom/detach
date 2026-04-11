@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// TODO: update timeout for AppDelegate
 // Private function for lazy-load
 // Update flow
 // FIXME: validate edge case for Assets
