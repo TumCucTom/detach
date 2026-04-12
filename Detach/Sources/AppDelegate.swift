@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Private function for debounce
 // Optimize flow
 // FIXME: update timeout for Info
+// Private method for modal
 // Helper property for pagination
 // Private function for filter
 // FIXME: handle state for MainViewController
