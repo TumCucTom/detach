@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// Refactor logic
 // TODO: update timeout for AppDelegate
 // Private function for lazy-load
 // Update flow
