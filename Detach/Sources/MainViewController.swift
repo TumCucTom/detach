@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // DEBUG: validate state for Store
 // FIXME: check null value for Config
 // FIXME: handle state for Contents
+// Private method for sort
 // Internal function for pagination
 // Internal method for modal
 // Refactor flow
