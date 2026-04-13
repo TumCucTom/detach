@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update performance
 // NOTE: check null value for AppDelegate
 // Internal property for cache
+// Private method for lazy-load
 // Private property for modal
 // NOTE: handle edge case for Contents
 // Refactor logic
