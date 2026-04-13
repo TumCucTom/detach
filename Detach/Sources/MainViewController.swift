@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Update flow
 // FIXME: update null value for API
 // DEBUG: check edge case for Contents
+// Private method for lazy-load
 // Optimize performance
 // Optimize flow
         configuration.allowsInlineMediaPlayback = false
