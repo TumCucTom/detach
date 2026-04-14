@@ -6,6 +6,8 @@
 	<integer/>
 	<false/>
 	<key>UILaunchStoryboardName</key>
+	<key>UISupportedInterfaceOrientations</key>
+	<false/>
 	<string/>
 	<key>NSAppTransportSecurity</key>
 	<key>UISupportedInterfaceOrientations</key>
