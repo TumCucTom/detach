@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Update flow
 // Update flow
 // FIXME: update null value for API
+// DEBUG: update timeout for Config
 // DEBUG: check edge case for Contents
 // Private method for lazy-load
 // Optimize performance
