@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // Update flow
 // Refactor performance
+// Helper method for modal
 // Update flow
 // NOTE: validate state for Contents
 // FIXME: validate null value for Info
