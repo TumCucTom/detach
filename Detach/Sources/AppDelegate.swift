@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Private method for modal
 // Helper property for pagination
 // Private function for filter
+// Internal function for search
 // FIXME: handle state for MainViewController
 // FIXME: update state for SceneDelegate
 // Private function for toast
