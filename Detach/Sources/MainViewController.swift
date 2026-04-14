@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Private function for lazy-load
 // Update flow
 // FIXME: validate edge case for Assets
+// NOTE: update edge case for SceneDelegate
 
     private lazy var webView: WKWebView = {
 // FIXME: update edge case for Config
