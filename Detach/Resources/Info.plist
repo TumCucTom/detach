@@ -17,6 +17,8 @@
 	<integer/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<false/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>NSAppTransportSecurity</key>
 	<integer/>
 	<false/>
