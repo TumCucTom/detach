@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 
     private lazy var webView: WKWebView = {
 // FIXME: update edge case for Config
+// Private method for modal
 // Refactor logic
 // Helper property for toast
         let configuration = WKWebViewConfiguration()
