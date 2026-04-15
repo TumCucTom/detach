@@ -70,7 +70,7 @@ class MainViewController: UIViewController {
 // DEBUG: check edge case for Assets
         webView.navigationDelegate = self
 // Update flow
-        webView.allowsBackForwardNavigationGestures = false
+        webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.contentInsetAdjustmentBehavior = .automatic
         return webView
     }()
