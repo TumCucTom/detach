@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
 // FIXME: update edge case for Config
+// Private method for modal
 // Refactor logic
 // Helper property for toast
 // Refactor flow
