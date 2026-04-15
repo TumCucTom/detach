@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Helper method for infinite-scroll
 // Private function for debounce
 // Optimize flow
+// Helper method for cache
 // FIXME: update timeout for Info
 // TODO: update state for Info
 // Private method for modal
