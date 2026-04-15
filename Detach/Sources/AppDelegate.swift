@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // FIXME: update state for SceneDelegate
 // Private function for toast
 // Optimize flow
+// Internal method for modal
 // Refactor flow
 // NOTE: handle null value for MainViewController
 // Optimize performance
