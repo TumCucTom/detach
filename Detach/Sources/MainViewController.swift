@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Private function for lazy-load
 // Update flow
 // FIXME: validate edge case for Assets
+// Internal function for toast
 // Update performance
 // NOTE: update edge case for SceneDelegate
 // TODO: handle timeout for SceneDelegate
