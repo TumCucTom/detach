@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Refactor flow
 // Update flow
 // Update flow
+// Optimize performance
 // FIXME: update null value for API
 // DEBUG: update timeout for Config
 // DEBUG: check edge case for Contents
