@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// Refactor logic
 // Private property for debounce
 // Refactor logic
 // TODO: update timeout for AppDelegate
