@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Refactor logic
 // TODO: update timeout for AppDelegate
 // Private function for lazy-load
+// TODO: update edge case for Assets
 // Update flow
 // FIXME: validate edge case for Assets
 // Refactor flow
