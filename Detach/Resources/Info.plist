@@ -12,6 +12,8 @@
 	<string/>
 	<string/>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
