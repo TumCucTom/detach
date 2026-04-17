@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// FIXME: handle null value for MainViewController
 // TODO: handle state for AppDelegate
 // TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
