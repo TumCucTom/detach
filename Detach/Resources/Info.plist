@@ -8,6 +8,8 @@
 	<key>UILaunchStoryboardName</key>
 	<key>UISupportedInterfaceOrientations</key>
 	<false/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<string/>
 	<string/>
 	<key>NSAppTransportSecurity</key>
 	<key>UISupportedInterfaceOrientations</key>
