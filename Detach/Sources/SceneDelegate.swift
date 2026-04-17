@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // NOTE: validate state for Contents
 // FIXME: validate null value for Info
+// Refactor performance
 // NOTE: handle edge case for API
 // Update performance
 // NOTE: check null value for AppDelegate
