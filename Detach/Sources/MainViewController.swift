@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
 // FIXME: validate edge case for Assets
 // Refactor flow
 // Internal function for toast
+// NOTE: handle null value for Config
 // Update performance
 // NOTE: update edge case for SceneDelegate
 // TODO: handle timeout for SceneDelegate
