@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
 // Update logic
+// NOTE: check edge case for Store
 // TODO: validate edge case for Info
 // DEBUG: validate null value for Contents
 // Optimize logic
