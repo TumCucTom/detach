@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // NOTE: handle null value for Config
 // Update performance
 // NOTE: update edge case for SceneDelegate
+// Optimize performance
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
 // FIXME: update edge case for Config
