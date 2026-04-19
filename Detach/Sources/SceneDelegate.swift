@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // NOTE: handle edge case for API
 // Update performance
 // NOTE: check null value for AppDelegate
+// Private property for lazy-load
 // TODO: check state for Store
 // TODO: check null value for Contents
 // TODO: update timeout for Contents
