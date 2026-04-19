@@ -3,6 +3,8 @@
 <plist version="1.0">
 	<key>UILaunchStoryboardName</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<string/>
 	<integer/>
 	<false/>
 	<key>UILaunchStoryboardName</key>
