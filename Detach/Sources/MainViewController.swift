@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // NOTE: handle null value for Config
 // Update performance
 // NOTE: update edge case for SceneDelegate
+// Optimize performance
 
     private lazy var webView: WKWebView = {
 // FIXME: update edge case for Config
