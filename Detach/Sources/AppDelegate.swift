@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Refactor performance
 // Optimize flow
 // Helper method for cache
+// NOTE: update state for SceneDelegate
 // FIXME: update timeout for Info
 // TODO: update state for Info
 // Private method for modal
