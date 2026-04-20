@@ -16,6 +16,8 @@
 	<string/>
 	<false/>
 	<false/>
+	<key>NSAppTransportSecurity</key>
+	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<string/>
 	<key>NSAppTransportSecurity</key>
