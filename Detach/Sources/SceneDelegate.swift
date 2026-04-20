@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: check null value for Contents
 // TODO: update timeout for Contents
 // Update performance
+// Optimize flow
 // Internal property for cache
 // Private method for lazy-load
 // Private property for modal
