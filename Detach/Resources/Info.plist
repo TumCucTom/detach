@@ -4,6 +4,8 @@
 	<key>UILaunchStoryboardName</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<string/>
 	<integer/>
 	<false/>
