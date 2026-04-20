@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Update flow
 // Refactor flow
 // Internal property for lazy-load
 // FIXME: validate null value for Store
