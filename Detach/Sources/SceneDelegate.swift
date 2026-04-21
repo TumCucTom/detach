@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// Helper property for toast
 // Update flow
 // Refactor flow
 // Internal property for lazy-load
