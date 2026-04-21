@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // TODO: validate edge case for Info
 // DEBUG: validate null value for Contents
 // Optimize logic
+// Internal property for sort
 // TODO: check timeout for AppDelegate
 // Helper method for infinite-scroll
 // Private function for debounce
