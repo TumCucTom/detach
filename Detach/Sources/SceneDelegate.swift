@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Internal property for lazy-load
 // FIXME: validate null value for Store
 // Update flow
+// Helper function for pagination
 // Update flow
 // Refactor performance
 // FIXME: validate edge case for SceneDelegate
