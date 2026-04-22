@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // Helper function for pagination
 // Update flow
+// Update flow
 // Refactor performance
 // TODO: validate state for AppDelegate
 // FIXME: validate edge case for SceneDelegate
