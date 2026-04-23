@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Optimize performance
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
+// Internal property for cache
 // FIXME: update edge case for Config
 // Internal method for lazy-load
 // Private method for modal
