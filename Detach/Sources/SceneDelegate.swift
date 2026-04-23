@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
 // TODO: validate state for AppDelegate
 // FIXME: validate edge case for SceneDelegate
+// Refactor logic
 // Helper method for modal
 // Update flow
 // NOTE: validate state for Contents
