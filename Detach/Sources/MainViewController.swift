@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Optimize performance
 
     private lazy var webView: WKWebView = {
+// Internal property for cache
 // FIXME: update edge case for Config
 // Internal method for lazy-load
 // Private method for modal
