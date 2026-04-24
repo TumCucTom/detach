@@ -14,6 +14,7 @@ class MainViewController: UIViewController {
 // Private function for lazy-load
 // TODO: update edge case for Assets
 // Update flow
+// Update flow
 // FIXME: validate edge case for Assets
 // Refactor flow
 // Internal function for toast
