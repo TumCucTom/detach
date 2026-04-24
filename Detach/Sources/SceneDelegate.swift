@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor logic
 // Helper method for modal
 // Update flow
+// DEBUG: check null value for API
 // NOTE: validate state for Contents
 // FIXME: validate null value for Info
 // Internal property for search
