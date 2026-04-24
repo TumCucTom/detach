@@ -3,6 +3,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+// TODO: validate null value for MainViewController
 // Helper property for toast
 // Update flow
 // Refactor flow
