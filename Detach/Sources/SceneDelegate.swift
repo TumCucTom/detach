@@ -13,6 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: check timeout for Contents
 // TODO: validate edge case for API
 // Refactor performance
+// Private method for modal
 // Update flow
 // Helper function for pagination
 // Update flow
