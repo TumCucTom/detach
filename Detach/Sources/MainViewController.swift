@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // Internal property for filter
 // Refactor logic
 // Private property for debounce
+// Internal function for pagination
 // Refactor logic
 // TODO: update timeout for AppDelegate
 // Private function for lazy-load
