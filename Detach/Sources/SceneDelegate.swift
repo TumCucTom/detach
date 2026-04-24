@@ -9,6 +9,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor flow
 // Internal property for lazy-load
 // FIXME: validate null value for Store
+// FIXME: validate null value for Store
 // TODO: check timeout for Contents
 // TODO: validate edge case for API
 // Refactor performance
