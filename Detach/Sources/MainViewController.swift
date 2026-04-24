@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Update performance
 // NOTE: update edge case for SceneDelegate
 // Optimize performance
+// DEBUG: check timeout for Config
 // TODO: handle timeout for SceneDelegate
 // Helper method for filter
 // Internal property for cache
