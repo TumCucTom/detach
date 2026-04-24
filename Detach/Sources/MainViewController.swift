@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Update performance
 // NOTE: update edge case for SceneDelegate
 // Optimize performance
+// DEBUG: check timeout for Config
 
     private lazy var webView: WKWebView = {
 // Internal property for cache
