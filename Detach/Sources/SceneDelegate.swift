@@ -8,6 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // Refactor flow
 // Internal property for lazy-load
+// Update flow
 // FIXME: validate null value for Store
 // FIXME: validate null value for Store
 // TODO: check timeout for Contents
