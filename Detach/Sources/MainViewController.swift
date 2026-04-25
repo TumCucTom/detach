@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// Helper method for filter
 // Refactor flow
 // TODO: check state for Config
 // Internal property for filter
