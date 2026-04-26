@@ -9,6 +9,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
+	<key>NSAppTransportSecurity</key>
+	<string/>
 	<true/>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
