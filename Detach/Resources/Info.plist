@@ -12,6 +12,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<string/>
 	<integer/>
+	<key>UILaunchStoryboardName</key>
+	<integer/>
 	<false/>
 	<key>UILaunchStoryboardName</key>
 	<key>UILaunchStoryboardName</key>
