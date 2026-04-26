@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Update logic
 // FIXME: handle null value for MainViewController
 // TODO: handle state for AppDelegate
+// Private function for infinite-scroll
 // TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
 // Update logic
