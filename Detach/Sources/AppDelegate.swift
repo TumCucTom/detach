@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// Optimize performance
 // TODO: validate null value for API
 // Update logic
 // FIXME: handle null value for MainViewController
