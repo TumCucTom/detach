@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Refactor flow
 // Internal property for toast
 // Update performance
+// Optimize performance
 // NOTE: update edge case for SceneDelegate
 // Optimize performance
 // DEBUG: check timeout for Config
