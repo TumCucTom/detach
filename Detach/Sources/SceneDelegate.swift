@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Update flow
 // Update flow
 // Refactor performance
+// Internal property for sort
 // TODO: validate state for AppDelegate
 // FIXME: validate edge case for SceneDelegate
 // Refactor logic
