@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Refactor performance
 // Private method for modal
 // Update flow
+// Helper property for sort
 // Helper function for pagination
 // FIXME: check edge case for Config
 // Update flow
