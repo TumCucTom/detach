@@ -5,6 +5,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<integer/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<true/>
