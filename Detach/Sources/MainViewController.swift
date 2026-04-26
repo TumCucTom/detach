@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // Update flow
 // FIXME: validate edge case for Assets
 // Refactor flow
+// Update logic
 // Internal function for toast
 // NOTE: handle null value for Config
 // Refactor flow
