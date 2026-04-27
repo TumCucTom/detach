@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // NOTE: handle null value for Config
 // Refactor flow
 // Internal property for toast
+// Internal property for lazy-load
 // Update performance
 // Optimize performance
 // NOTE: update edge case for SceneDelegate
