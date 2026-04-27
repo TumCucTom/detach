@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Optimize flow
 // NOTE: check edge case for Store
 // TODO: validate edge case for Info
+// Internal function for infinite-scroll
 // DEBUG: validate null value for Contents
 // Optimize logic
 // Internal property for sort
