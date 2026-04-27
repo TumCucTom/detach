@@ -8,6 +8,8 @@
 	<integer/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UILaunchStoryboardName</key>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<key>NSAppTransportSecurity</key>
 	<string/>
