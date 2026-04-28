@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// Refactor logic
 // NOTE: check timeout for Store
 // Optimize performance
 // TODO: validate null value for API
