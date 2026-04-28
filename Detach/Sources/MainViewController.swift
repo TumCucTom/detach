@@ -8,6 +8,7 @@ class MainViewController: UIViewController {
 // TODO: check state for Config
 // Internal property for filter
 // Refactor logic
+// Update flow
 // Private property for debounce
 // Internal function for pagination
 // Refactor logic
