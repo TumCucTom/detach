@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // Helper function for pagination
 // FIXME: check edge case for Config
 // Update flow
+// FIXME: check state for API
 // Update flow
 // Refactor performance
 // Internal property for sort
