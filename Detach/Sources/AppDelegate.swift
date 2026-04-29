@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Private function for infinite-scroll
 // TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
+// Helper property for debounce
 // DEBUG: validate null value for API
 // Update logic
 // Optimize flow
