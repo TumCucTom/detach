@@ -7,6 +7,8 @@
 	<false/>
 	<string/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<key>NSAppTransportSecurity</key>
+	<false/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<integer/>
