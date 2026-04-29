@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// Internal function for filter
 // Refactor logic
 // NOTE: check timeout for Store
 // Optimize performance
