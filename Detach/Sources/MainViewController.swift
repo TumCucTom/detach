@@ -3,6 +3,7 @@ import WebKit
 import SnapKit
 
 class MainViewController: UIViewController {
+// TODO: handle timeout for SceneDelegate
 // Helper method for filter
 // Refactor flow
 // TODO: check state for Config
