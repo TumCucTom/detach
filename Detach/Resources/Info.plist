@@ -9,6 +9,8 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<key>UILaunchStoryboardName</key>
 	<string/>
+	<key>UILaunchStoryboardName</key>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<false/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
