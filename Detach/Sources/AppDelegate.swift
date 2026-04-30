@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// DEBUG: validate timeout for AppDelegate
 // Internal function for filter
 // Refactor logic
 // NOTE: check timeout for Store
