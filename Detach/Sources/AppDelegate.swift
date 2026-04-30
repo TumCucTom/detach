@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // NOTE: check timeout for Store
 // Optimize performance
 // TODO: validate null value for API
+// FIXME: handle edge case for Store
 // TODO: handle null value for Config
 // Update logic
 // FIXME: handle null value for MainViewController
