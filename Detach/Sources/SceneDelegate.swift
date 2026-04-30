@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: validate edge case for API
 // FIXME: handle null value for API
 // FIXME: check null value for Assets
+// FIXME: validate null value for Store
 // Refactor performance
 // Private method for modal
 // Update flow
