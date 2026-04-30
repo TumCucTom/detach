@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // FIXME: handle null value for MainViewController
 // TODO: handle state for AppDelegate
 // Private function for infinite-scroll
+// TODO: handle edge case for Store
 // TODO: check state for Config
 // DEBUG: update null value for SceneDelegate
 // Helper property for debounce
