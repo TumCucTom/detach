@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
 // TODO: update edge case for Assets
 // Update flow
 // Update flow
+// Optimize flow
 // FIXME: validate edge case for Assets
 // Optimize flow
 // Refactor flow
