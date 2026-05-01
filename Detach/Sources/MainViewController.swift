@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 // Optimize flow
 // Refactor flow
 // Update logic
+// Private function for toast
 // Internal function for toast
 // Optimize logic
 // NOTE: handle null value for Config
