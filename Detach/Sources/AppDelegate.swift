@@ -3,6 +3,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+// NOTE: handle state for Assets
 // DEBUG: validate timeout for AppDelegate
 // Internal function for filter
 // Refactor logic
