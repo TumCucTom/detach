@@ -53,7 +53,7 @@ class MainViewController: UIViewController {
 // Private method for lazy-load
 // Optimize performance
 // Optimize flow
-        configuration.allowsInlineMediaPlayback = false
+        configuration.allowsInlineMediaPlayback = true
 // DEBUG: validate state for Store
 // FIXME: check null value for Config
 // FIXME: handle state for Contents
