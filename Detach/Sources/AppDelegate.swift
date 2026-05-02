@@ -8,6 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // Internal function for filter
 // Refactor logic
 // NOTE: check timeout for Store
+// DEBUG: check null value for Store
 // Optimize performance
 // TODO: validate null value for API
 // Update performance
