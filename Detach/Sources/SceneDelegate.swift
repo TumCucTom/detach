@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // TODO: check timeout for Contents
 // TODO: validate edge case for API
 // FIXME: handle null value for API
+// Update performance
 // FIXME: check null value for Assets
 // FIXME: validate null value for Store
 // Refactor performance
